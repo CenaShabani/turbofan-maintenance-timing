@@ -1,0 +1,54 @@
+{
+  "engines": 709,
+  "unit_cycles": 160359,
+  "regimes": 6,
+  "sensors_kept": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_10",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_16",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "sensors_dropped": [
+    "sensor_1",
+    "sensor_5",
+    "sensor_18",
+    "sensor_19"
+  ],
+  "censoring": {
+    "target_rate": 0.4,
+    "realised_rate": 0.4033850493653032,
+    "horizon_ceiling": 563,
+    "seed": 20260801
+  },
+  "risk_window_start": 128,
+  "fit_engines": 390,
+  "fit_engines_dropped_by_window": 106,
+  "holdout_engines": 164,
+  "hazard_band_edges": [
+    128.0,
+    154.0,
+    167.0,
+    177.0,
+    188.0,
+    197.0,
+    208.0,
+    229.0,
+    257.0,
+    295.0
+  ],
+  "fit_rows": 32587,
+  "fit_failures": 298
+}

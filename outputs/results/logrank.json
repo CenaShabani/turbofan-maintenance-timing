@@ -1,0 +1,11 @@
+{
+  "test_statistic": 44.35584859840726,
+  "p_value": 1.2680752312082092e-09,
+  "degrees_of_freedom": 3,
+  "groups": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ]
+}

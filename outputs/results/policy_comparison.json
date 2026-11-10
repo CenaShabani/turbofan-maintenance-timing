@@ -1,0 +1,35 @@
+{
+  "cost_ratio": 5.0,
+  "model": {
+    "threshold": 0.07669124051121881,
+    "cost_per_1000_cycles": 5.08548680304669,
+    "units": 213.0,
+    "pulled": 211.0,
+    "failed": 2.0,
+    "failure_rate": 0.009389671361502348,
+    "mean_service_cycles": 204.02347417840375,
+    "service_utilisation": 0.8922492557232317,
+    "mean_lead_time": 24.872037914691944,
+    "median_lead_time": 25.0
+  },
+  "fixed_interval": {
+    "interval": 140.0,
+    "cost_per_1000_cycles": 7.4171029668411865,
+    "units": 213.0,
+    "pulled": 211.0,
+    "failed": 2.0,
+    "failure_rate": 0.009389671361502348,
+    "mean_service_cycles": 139.88732394366198,
+    "mean_lead_time": 89.61611374407583
+  },
+  "run_to_failure": {
+    "policy": "run-to-failure",
+    "cost_per_1000_cycles": 21.866338158299968,
+    "units": 213,
+    "failed": 213,
+    "failure_rate": 1.0,
+    "mean_service_cycles": 228.66197183098592
+  },
+  "saving_vs_fixed_interval_pct": 31.435672043629328,
+  "saving_vs_run_to_failure_pct": 76.74285119789774
+}

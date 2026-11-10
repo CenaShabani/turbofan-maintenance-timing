@@ -1,0 +1,13 @@
+{
+  "units": 709,
+  "censored_fraction": 0.4033850493653032,
+  "true_mean_life": 226.17630465444287,
+  "complete_case_mean_life": 211.93617021276594,
+  "complete_case_bias_cycles": -14.240134441676929,
+  "complete_case_bias_pct": -6.296032850759198,
+  "naive_observed_mean_life": 178.98448519040903,
+  "naive_bias_cycles": -47.19181946403384,
+  "true_median_life": 207.0,
+  "kaplan_meier_median": 209.0,
+  "kaplan_meier_median_error": 2.0
+}

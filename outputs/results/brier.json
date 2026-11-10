@@ -1,0 +1,13 @@
+{
+  "landmark": 150,
+  "integrated_brier_score": 0.1219017456377562,
+  "baseline_integrated_brier_score": 0.15843009609291858,
+  "improvement": 0.03652835045516238,
+  "horizons": [
+    10.0,
+    20.0,
+    30.0,
+    40.0,
+    50.0
+  ]
+}

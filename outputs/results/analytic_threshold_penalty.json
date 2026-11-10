@@ -1,0 +1,9 @@
+{
+  "analytic_threshold": 0.2,
+  "analytic_cost": 6.198711726815494,
+  "empirical_threshold": 0.07669124051121881,
+  "empirical_cost": 5.08548680304669,
+  "penalty_pct": 21.890233263448383,
+  "analytic_failure_rate": 0.07981220657276995,
+  "empirical_failure_rate": 0.009389671361502348
+}

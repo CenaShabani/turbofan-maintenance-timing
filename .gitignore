@@ -1,0 +1,37 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data is downloaded by src/acquisition.py, never committed. The provenance
+# record IS committed — it is what lets anyone verify they have the same bytes.
+# `data/` alone would also swallow provenance.json: git never re-includes a file
+# whose parent directory is excluded, so the directories are opened up level by
+# level and only that one file is negated.
+data/*
+!data/raw/
+data/raw/*
+!data/raw/provenance.json
+
+# Secrets
+.env
+*.pem
+*.key
+kaggle.json
+**/secrets/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Interview / recruiter prep: kept locally, never published ---------------
+# These are deliverables in my own workflow (DOSSIER.md is one of the five) but
+# they name prospective employers, quote recruiters' briefs, and in one case
+# cross-reference a confidential assignment. They stay on disk and out of git.
+DOSSIER.md
+interview/

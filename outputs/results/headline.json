@@ -1,0 +1,35 @@
+{
+  "engines": 709,
+  "censored_fraction": 0.4033850493653032,
+  "complete_case_bias_cycles": -14.240134441676929,
+  "complete_case_bias_pct": -6.296032850759198,
+  "kaplan_meier_median_error": 2.0,
+  "holdout_harrell_c": 0.8954947908707362,
+  "holdout_uno_c": 0.8814225992543082,
+  "integrated_brier_score": 0.1219017456377562,
+  "baseline_integrated_brier_score": 0.15843009609291858,
+  "optimal_threshold": 0.07669124051121881,
+  "optimal_threshold_ci": [
+    0.07669124051121881,
+    0.10236924294042891
+  ],
+  "model_cost_per_1000": 5.08548680304669,
+  "interval_cost_per_1000": 7.4171029668411865,
+  "best_interval_cycles": 140.0,
+  "run_to_failure_cost_per_1000": 21.866338158299968,
+  "saving_vs_interval_pct": 31.435672043629328,
+  "saving_vs_interval_ci": [
+    28.029301152264445,
+    34.32640822140164
+  ],
+  "model_failure_rate": 0.009389671361502348,
+  "interval_failure_rate": 0.009389671361502348,
+  "model_service_cycles": 204.02347417840375,
+  "interval_service_cycles": 139.88732394366198,
+  "median_lead_time": 25.0,
+  "lead_time_p10": 12.0,
+  "analytic_threshold_penalty_pct": 21.890233263448383,
+  "ph_violations": 10,
+  "ph_covariates": 17,
+  "runtime_seconds": 16.1
+}
